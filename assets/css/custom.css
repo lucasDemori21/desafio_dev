@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+body{
+    min-height: 100vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 50%;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4%;
+    width: 75%;
+}
+
+.input-group{
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.group-button{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+@media(max-width: 768px){
+    .container{
+        width: 75%;
+    }
+}
